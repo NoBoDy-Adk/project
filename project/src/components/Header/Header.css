@@ -1,0 +1,21 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position:relative ;
+}
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: start;
+    max-width: 50%;
+    bottom: 10%;       
+    left: 5%;         
+    top: auto;       
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
