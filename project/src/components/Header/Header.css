@@ -18,4 +18,30 @@
     color: white;
     font-size: 1.5vw;
     font-weight: 600;
+    animation: fadein 3s;
+}
+
+.header-content h2{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: max(4.5vw,20px);
+}
+
+.header-content p{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+.header-content button{
+    padding: 1vw 2.3vw;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    color: rgb(184, 184, 184);
+    font-size:(max(1vw,13px));
+}
+.header-content button:hover{
+    cursor: pointer;
+    background-color: rgb(184, 184, 184);
+    color: rgb(255, 255, 255);
 }
