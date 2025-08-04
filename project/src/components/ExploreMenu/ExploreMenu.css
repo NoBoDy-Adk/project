@@ -56,3 +56,11 @@
 .explore-menu-list-item {
   cursor: pointer;
 }
+
+@media(max-width:1050px){
+    .explore-menu-text{
+        max-width: 100%;
+        font-size:14px ;
+    }
+
+}
